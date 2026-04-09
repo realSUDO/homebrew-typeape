@@ -9,7 +9,8 @@ class Typeape < Formula
 
   def install
     system "cmake", "-B", "build", "-DCMAKE_BUILD_TYPE=Release",
-                    "-DCMAKE_INSTALL_PREFIX=#{prefix}"
+                    "-DCMAKE_INSTALL_PREFIX=#{prefix}",
+                    "-DTYPEAPE_DATA_DIR=#{share}/typeape/data"
     system "cmake", "--build", "build", "-j#{ENV.make_jobs}"
     system "cmake", "--install", "build"
   end
