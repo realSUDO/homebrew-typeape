@@ -1,8 +1,8 @@
 class Typeape < Formula
   desc "Fast, minimal terminal typing speed test"
   homepage "https://github.com/realSUDO/typeape"
-  url "https://github.com/realSUDO/typeape/archive/refs/tags/v0.1.4.tar.gz"
-  sha256 "5b9da96a66b13ac5b646e5f2be9861c351cd1b3b6ea5a06437c61695d5d458d9"
+  url "https://github.com/realSUDO/typeape/archive/refs/tags/v0.1.5.tar.gz"
+  sha256 "08764f1c8459e8a7d5233a46a21451fb97ba800c9cf11b869b2093919ab23879"
   license "GPL-3.0-or-later"
 
   depends_on "cmake" => :build
